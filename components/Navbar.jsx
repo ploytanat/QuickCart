@@ -64,7 +64,7 @@ const Navbar = () => {
       <div className="flex items-center md:hidden gap-3">
         {isSeller && <button onClick={() => router.push('/seller')} className="text-xs border px-4 py-1.5 rounded-full">Seller Dashboard</button>}
       
-          <Image src={assets.user_icon} alt="user icon" />
+         
           { user ? <>
           <UserButton>
              <UserButton.MenuItems>
